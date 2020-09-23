@@ -1,1 +1,1 @@
-VJS
+Vanilla Javascript Study
