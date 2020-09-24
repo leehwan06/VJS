@@ -75,12 +75,12 @@ console.log(plus); //잘나오네
 const calculator = {
   plus: function(a, b){
       return a + b;
-  };
+  },
 }
 const calculator = {
   multiplication: function(a, b){
       return a * b;
-  };
+  },
 }
 
 const multiplication = calculator.multiplication(5, 5);
