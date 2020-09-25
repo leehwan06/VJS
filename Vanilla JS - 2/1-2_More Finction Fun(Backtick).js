@@ -14,6 +14,10 @@ function sayHello(name, age) {
                     //백틱은 문장중간에 단어하나 넣듯이 쓸수있어서 편해!
 
 
+//여깃부턴 리턴 얘기임
+
+
+
 //변수를 하나 선언할게
 //이 변수는 함수 sayHello를 호출하지
 const greetNicolas = sayHello("Nicolas", 14);
@@ -76,13 +80,28 @@ const calculator = {
   plus: function(a, b){
       return a + b;
   },
-}
-const calculator = {
   multiplication: function(a, b){
-      return a * b;
+    return a * b;
   },
+  minus: function(a, b){
+    return a - b;
+  },
+  divide: function(a, b){
+    return a / b;
+  },
+  squareRoot: function(a, b){
+    return a ** b;
+  }
 }
 
-const multiplication = calculator.multiplication(5, 5);
+const plus1 = calculator.plus(5, 5);
+const minus1 = calculator.minus(6, 3);
+const multiplication1 = calculator.multiplication(2, 5);
+const divide1 = calculator.divide(6, 2);
+const squareRoot1 = calculator.squareRoot(4, 4);
 
-console.log(multiplication);
+console.log(plus1);
+console.log(minus1);
+console.log(multiplication1);
+console.log(divide1);
+console.log(squareRoot1);
